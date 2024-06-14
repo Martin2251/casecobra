@@ -25,7 +25,11 @@ export default function Home() {
                 </li>
                 <li className=" flex gap-1.5 items-center text-left">
                   <Check className="h-5 w-5 shrink-0 text-green-600"  />
-                  High quality durable amterial
+                 5 year print guarantee
+                </li>
+                <li className=" flex gap-1.5 items-center text-left">
+                  <Check className="h-5 w-5 shrink-0 text-green-600"  />
+                 modern iphone models supported
                 </li>
                  </div>
 
