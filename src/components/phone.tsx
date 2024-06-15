@@ -6,7 +6,7 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement>{
     dark?: boolean
 }
 
-const Phone  =({className}:PhoneProps) => {
+const Phone  =({imgSrc,className, dark = false, ...props}:PhoneProps) => {
 return(
     <div className={cn("relative pointer-events-none z-50 overflow-hidden", className)}></div>
 )
