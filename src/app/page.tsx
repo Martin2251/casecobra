@@ -37,7 +37,8 @@ export default function Home() {
             <div className="mt-12 flex flex-col sm:flex-row items-center sm:items-start gap-5">
               <div className="flex -space-x-4">
                 <img className="inline-bloxk h-10 w-10 rounded-full ring-2 ring-slate-100" src="/users/user-1.png" alt="user image"  />
-                <img className="inline-bloxk h-10 w-10 rounded-full ring-2 ring-slate-100" src="/users/user-1.png" alt="user image"  />
+                <img className="inline-bloxk h-10 w-10 rounded-full ring-2 ring-slate-100" src="/users/user-2.png" alt="user image"  />
+                <img className="inline-bloxk h-10 w-10 rounded-full ring-2 ring-slate-100" src="/users/user-3.png" alt="user image"  />
               </div>
             </div>
           </div>
