@@ -4,6 +4,7 @@ import { buttonVariants } from "./ui/button"
 
 const Navbar = () =>{
     const user = undefined
+    const isAdmin = false
 return (
     <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
         <MaxWidthWrapper>
@@ -16,7 +17,16 @@ return (
                     {user ? (<><Link href="/api/auth/logout" className={buttonVariants({
                         size:"sm",
                         variant:"ghost",
-                    })}></Link></>) :(<></>)}
+                    })}>
+                        Sign Out
+                        </Link>
+
+                        { isAdmin ?<Link href="/api/auth/logout" className={buttonVariants({
+                        size:"sm",
+                        variant:"ghost",
+                    })}>
+                        Dashboard 
+                        </Link> :null}</>) :(<></>)}
                 </div>
             </div>
         </MaxWidthWrapper>
